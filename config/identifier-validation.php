@@ -23,6 +23,9 @@ return [
         'blr_unp'           => \Laragrad\IdentifierValidation\Rules\BLR\BlrUnp::class,
         'blr_person_unp'    => \Laragrad\IdentifierValidation\Rules\BLR\BlrPersonUnp::class,
 
+        // UKR
+        'ukr_edrpou'        => \Laragrad\IdentifierValidation\Rules\UKR\UkrEdrpou::class,
+
         // Other
         'bank_card_number'  => \Laragrad\IdentifierValidation\Rules\BankCardNumber::class,
         'isin'              => \Laragrad\IdentifierValidation\Rules\Isin::class,

@@ -22,6 +22,9 @@ return [
     'blr_unp' => 'В поле :attribute не корректный УНП организации',
     'blr_person_unp' => 'В поле :attribute не корректный УНП физ.лица',
 
+    // UKR
+    'ukr_edrpou' => 'В поле :attribute не корректный ЕДРПОУ организации',
+
     // Other
     'bank_card_number' => 'В поле :attribute не корректный номер банковской карты',
     'isin' => 'В поле :attribute не корректный ISIN',
