@@ -1,0 +1,27 @@
+{
+	"name" : "laragrad/identifier-validation",
+	"description" : "Extensions for Laravel validation rules to validate national person and company identifiers",
+	"keywords" : [
+		"laravel",
+		"eloquent",
+		"identifier-validation",
+		"validation"
+	],
+	"type" : "package",
+	"license" : "MIT",
+	"authors" : [
+		{
+			"name" : "Ilya Khondozhko",
+			"email" : "dev@laragrad.com"
+		}
+	],
+	"require" : {
+		"php" : ">=7.2.0"
+	},
+	"autoload" : {
+		"psr-4" : {
+			"Laragrad\\IdentifierValidation\\" : "src"
+		}
+	},
+	"minimum-stability" : "dev"
+}
