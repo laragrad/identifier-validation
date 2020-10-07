@@ -9,8 +9,7 @@
 	],
 	"type" : "package",
 	"license" : "MIT",
-	"authors" : [
-		{
+	"authors" : [{
 			"name" : "Ilya Khondozhko",
 			"email" : "dev@laragrad.com"
 		}
@@ -21,6 +20,13 @@
 	"autoload" : {
 		"psr-4" : {
 			"Laragrad\\IdentifierValidation\\" : "src"
+		}
+	},
+	"extra" : {
+		"laravel" : {
+			"providers" : [
+				"Laragrad\\IdentifierValidation\\IdentifierValidationServiceProvider"
+			]
 		}
 	},
 	"minimum-stability" : "dev"
