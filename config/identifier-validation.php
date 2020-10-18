@@ -29,5 +29,6 @@ return [
         // Other
         'bank_card_number'  => \Laragrad\IdentifierValidation\Rules\BankCardNumber::class,
         'isin'              => \Laragrad\IdentifierValidation\Rules\Isin::class,
+        'iban'              => \Laragrad\IdentifierValidation\Rules\Iban::class,
     ],
 ];

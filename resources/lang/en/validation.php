@@ -28,4 +28,5 @@ return [
     // Other
     'bank_card_number' => 'The :attribute is not a valid bank card number',
     'isin' => 'The :attribute is not a valid ISIN',
+    'iban' => 'The :attribute is not a valid IBAN',
 ];

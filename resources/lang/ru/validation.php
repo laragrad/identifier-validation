@@ -28,5 +28,5 @@ return [
     // Other
     'bank_card_number' => 'В поле :attribute не корректный номер банковской карты',
     'isin' => 'В поле :attribute не корректный ISIN',
-
+    'iban' => 'В поле :attribute не корректный IBAN',
 ];

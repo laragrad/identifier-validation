@@ -22,6 +22,7 @@ The package provides an extended set of rules for validating any national IDs of
 * Any international codes
   * **bank_card_number** - Any bank card number
   * **isin** - International Securities Identification Number
+  * **iban** - International Bank Account Number (ISO-13616)
 
 ## Installation
 
@@ -44,5 +45,3 @@ You can comment out the rules that will not be used in your app.
 You can add own custom rule extension. 
 
 Custom rule extension class must extends \Laragrad\IdentifierValidation\Rules\AbstractRuleExtension and realize your logic in extend() method.
-
-
