@@ -5,7 +5,9 @@
 		"laravel",
 		"eloquent",
 		"identifier-validation",
-		"validation"
+		"validation",
+		"iban",
+		"isin"
 	],
 	"type" : "package",
 	"license" : "MIT",
