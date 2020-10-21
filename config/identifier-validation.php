@@ -25,6 +25,7 @@ return [
 
         // UKR
         'ukr_edrpou'        => \Laragrad\IdentifierValidation\Rules\UKR\UkrEdrpou::class,
+        'ukr_rnokpp'        => \Laragrad\IdentifierValidation\Rules\UKR\UkrRnokpp::class,
 
         // Other
         'bank_card_number'  => \Laragrad\IdentifierValidation\Rules\BankCardNumber::class,
