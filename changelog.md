@@ -1,5 +1,12 @@
 # laragrad/identifier-validation change log
 
+## 1.2
+
+1. Added new validation rules:
+    1. **ukr_rnokpp** - (uk: РНОКПП)
+        * format validation
+        * control digits validation 
+
 ## 1.1.0
 
 1. *changelog.md* added

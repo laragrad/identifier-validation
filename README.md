@@ -5,20 +5,21 @@ The package provides an extended set of rules for validating any national IDs of
 ## List of rules
 
 * **BLR** - Belarus
-    * **blr_unp** - Tax payer's account number for legals (УНП)
-    * **blr_person_unp** - Tax payer's account number for individual (УНП)
+    * **blr_unp** - Tax payer's account number for legals (ru: УНП)
+    * **blr_person_unp** - Tax payer's account number for individual (ru: УНП)
 * **KAZ** - Kazakhstan
-    * **kaz_iin** - Individual Identification Number (ИИН)
-    * **kaz_bin** - Business Identification Number (БИН)
+    * **kaz_iin** - Individual Identification Number (IIN, ru: ИИН) for Kazakhstan
+    * **kaz_bin** - Business Identification Number (BIN, ru: БИН) for Kazakhstan
 * **RUS** - Russia
-    * **rus_person_inn** - Idetification Number Of Tax Payer for individuals (ИНН)
-    * **rus_inn** - Idetification Number Of Tax Payer for legals (ИНН)
-    * **rus_kpp** - Code of the reason for registration (КПП)
-    * **rus_ogrn** - Main state registration number of legal (ОГРН)
-    * **rus_ogrnip** - Main state registration number of individual employer (ОГРНИП)
-    * **rus_snils** - Insurance number of the individual personal account (СНИЛС)
+    * **rus_person_inn** - Tax payer Idetification Number for individuals (TIN, ru: ИНН)
+    * **rus_inn** - Tax payer Idetification Number for legals (TIN, ru: ИНН)
+    * **rus_kpp** - Code of the Reason for Registration (ru: КПП)
+    * **rus_ogrn** - Primary State Registration Number of legal (ru: ОГРН)
+    * **rus_ogrnip** - Primary State Registration Number of individual employer (ru: ОГРНИП)
+    * **rus_snils** - Insurance Number of the Individual Personal Account (ru: СНИЛС)
 * **UKR** - Ukraine
-    * **ukr_edrpou** - (ЕДРПОУ)
+    * **ukr_edrpou** - (uk: ЄДРПОУ, ru: ЕГРПОУ)
+    * **ukr_rnokpp** - (uk: РНОКПП)
 * Any international codes
     * **bank_card_number** - Any bank card number
     * **isin** - International Securities Identification Number
