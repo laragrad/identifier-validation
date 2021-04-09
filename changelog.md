@@ -1,6 +1,10 @@
 # laragrad/identifier-validation change log
 
-## 1.2
+## 1.1.2
+
+1. Fixed bug for **rus_snils** where last two digits '00'
+
+## 1.1.1
 
 1. Added new validation rules:
     1. **ukr_rnokpp** - (uk: РНОКПП)

@@ -38,12 +38,15 @@ class RusSnils extends AbstractRuleExtension
         foreach ($digits as $key => $digit) {
             $sum += $weights[$key] * (int) $digit;
         }
+        
+        if ($sum > 101) {
+            $sum = $sum % 101;
+        }
+        
         if ($sum < 100) {
             $controlNumber = $sum;
         } else if ($sum == 100 || $sum == 101) {
             $controlNumber = 0;
-        } else {
-            $controlNumber = $sum % 101;
         }
 
         return ($controlNumber == ((int) substr($value, 9, 2)));
