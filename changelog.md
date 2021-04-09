@@ -2,7 +2,7 @@
 
 ## 1.1.2
 
-1. Fixed bug for **rus_snils** where last two digits '00'
+1. Fixed rus_snils rule bug for SNILS where last two digits '00'
 
 ## 1.1.1
 
