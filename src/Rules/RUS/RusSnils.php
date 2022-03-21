@@ -25,8 +25,8 @@ class RusSnils extends AbstractRuleExtension
 
         $value = str_replace(['-', ' '], ['', ''], $value);
         
-        $commonDigits = substr($value, 1, 9);
-        $controlDigits = substr($value, 1, -2);
+        $commonDigits = substr($value, 0, 9);
+        $controlDigits = substr($value, -2, 2);
 
         // Additional checking
         // SNILS can't have 3 same digits in each 3-digit parts
