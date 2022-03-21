@@ -24,16 +24,23 @@ class RusSnils extends AbstractRuleExtension
         }
 
         $value = str_replace(['-', ' '], ['', ''], $value);
+        
+        $commonDigits = substr($value, 1, 9);
+        $controlDigits = substr($value, 1, -2);
 
         // Additional checking
-        if (preg_match('/(000|111|222|333|444|555|666|777|888|999)/',$value)) {
-            return false;
+        // SNILS can't have 3 same digits in each 3-digit parts
+        $parts = str_split($commonDigits, 3);
+        foreach ($parts as $part) {
+            if (preg_match('/(000|111|222|333|444|555|666|777|888|999)/',$part)) {
+                return false;
+            }
         }
 
         // Calculate and check control number
-        $digits = str_split($value);
+        $digits = str_split($commonDigits);
 
-        $weights = [9, 8, 7, 6, 5, 4, 3, 2, 1, 0, 0];
+        $weights = [9, 8, 7, 6, 5, 4, 3, 2, 1];
         $sum = 0;
         foreach ($digits as $key => $digit) {
             $sum += $weights[$key] * (int) $digit;
@@ -49,7 +56,7 @@ class RusSnils extends AbstractRuleExtension
             $controlNumber = 0;
         }
 
-        return ($controlNumber == ((int) substr($value, 9, 2)));
+        return ($controlNumber == ((int) $controlDigits));
     }
 
 }
