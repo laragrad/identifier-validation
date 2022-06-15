@@ -7,26 +7,30 @@
 return [
 
     // RUS
-    'rus_inn' => 'The :attribute is not a valid company INN',
-    'rus_person_inn' => 'The :attribute is not a valid person INN',
-    'rus_kpp' => 'The :attribute is not a valid company KPP',
-    'rus_ogrn' => 'The :attribute is not a valid OGRN',
-    'rus_ogrnip' => 'The :attribute is not a valid OGRNIP',
-    'rus_snils' => 'The :attribute is not a valid SNILS',
+    "rus_inn" => "Le champ :attribute doit être un INN valide",
+    "rus_person_inn" => "Le champ :attribute doit être un INN valide",
+    "rus_kpp" => "Le champ :attribute doit être un company KPP valide",
+    "rus_ogrn" => "Le champ :attribute doit être un OGRN valide",
+    "rus_ogrnip" => "Le champ :attribute doit être un OGRNIP valide",
+    "rus_snils" => "Le champ :attribute doit être un SNILS valide",
 
     // KAZ
-    'kaz_iin' => 'The :attribute is not a valid IIN',
-    'kaz_bin' => 'The :attribute is not a valid BIN',
+    "kaz_iin" => "Le champ :attribute doit être un IIN valide",
+    "kaz_bin" => "Le champ :attribute doit être un BIN valide",
 
     // BLR
-    'blr_unp' => 'The :attribute is not a valid UNP',
-    'blr_person_unp' => 'The :attribute is not a valid person UNP',
+    "blr_unp" => "Le champ :attribute doit être un UNP valide",
+    "blr_person_unp" => "Le champ :attribute doit être un person UNP valide",
 
     // UKR
-    'ukr_edrpou' => 'The :attribute is not a valid EDRPOU',
+    "ukr_edrpou" => "Le champ :attribute doit être un EDRPOU valide",
+
+    // FRA
+    "fra_siren" => "Le champ :attribute doit être un SIREN valide",
+    "fra_siret" => "Le champ :attribute doit être un SIRET valide",
 
     // Other
-    'bank_card_number' => 'The :attribute is not a valid bank card number',
-    'isin' => 'The :attribute is not a valid ISIN',
-    'iban' => 'The :attribute is not a valid IBAN',
+    "bank_card_number" => "Le champ :attribute doit être un bank card number",
+    "isin" => "Le champ :attribute doit être un ISIN valide",
+    "iban" => "Le champ :attribute doit être un IBAN valide",
 ];
