@@ -1,5 +1,16 @@
 # laragrad/identifier-validation change log
 
+## 1.2
+
+1. Added new validation rules:
+    1. **fra_siren** - SIREN code used in France
+        * format validation
+        * control digits validation 
+    2. **fra_siret** - SIRET code used in France
+        * format validation
+        * control digits validation
+2. French localisation added 
+
 ## 1.1.2
 
 1. Fixed rus_snils rule bug for SNILS where last two digits '00'

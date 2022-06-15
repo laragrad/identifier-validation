@@ -27,6 +27,10 @@ return [
         'ukr_edrpou'        => \Laragrad\IdentifierValidation\Rules\UKR\UkrEdrpou::class,
         'ukr_rnokpp'        => \Laragrad\IdentifierValidation\Rules\UKR\UkrRnokpp::class,
 
+        // FRA
+        'fra_siren'         => \Laragrad\IdentifierValidation\Rules\FRA\FraSiren::class,
+        'fra_siret'         => \Laragrad\IdentifierValidation\Rules\FRA\FraSiret::class,
+
         // Other
         'bank_card_number'  => \Laragrad\IdentifierValidation\Rules\BankCardNumber::class,
         'isin'              => \Laragrad\IdentifierValidation\Rules\Isin::class,

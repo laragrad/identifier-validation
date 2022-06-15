@@ -25,6 +25,10 @@ return [
     // UKR
     'ukr_edrpou' => 'В поле :attribute не корректный ЕДРПОУ организации',
 
+    // FRA
+    'fra_siren' => 'В поле :attribute не корректный SIREN',
+    'fra_siret' => 'В поле :attribute не корректный SIRET',
+
     // Other
     'bank_card_number' => 'В поле :attribute не корректный номер банковской карты',
     'isin' => 'В поле :attribute не корректный ISIN',

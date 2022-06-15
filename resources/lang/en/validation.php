@@ -7,26 +7,30 @@
 return [
 
     // RUS
-    'rus_inn' => 'The :attribute is not a valid company INN',
-    'rus_person_inn' => 'The :attribute is not a valid person INN',
-    'rus_kpp' => 'The :attribute is not a valid company KPP',
-    'rus_ogrn' => 'The :attribute is not a valid OGRN',
-    'rus_ogrnip' => 'The :attribute is not a valid OGRNIP',
-    'rus_snils' => 'The :attribute is not a valid SNILS',
+    "rus_inn" => "Un :attribute n'est pas un code INN valide",
+    "rus_person_inn" => "Un :attribute n'est pas un code INN valide",
+    "rus_kpp" => "Un :attribute n'est pas un code company KPP valide",
+    "rus_ogrn" => "Un :attribute n'est pas un code OGRN valide",
+    "rus_ogrnip" => "Un :attribute n'est pas un code OGRNIP valide",
+    "rus_snils" => "Un :attribute n'est pas un code SNILS valide",
 
     // KAZ
-    'kaz_iin' => 'The :attribute is not a valid IIN',
-    'kaz_bin' => 'The :attribute is not a valid BIN',
+    "kaz_iin" => "Un :attribute n'est pas un code IIN valide",
+    "kaz_bin" => "Un :attribute n'est pas un code BIN valide",
 
     // BLR
-    'blr_unp' => 'The :attribute is not a valid UNP',
-    'blr_person_unp' => 'The :attribute is not a valid person UNP',
+    "blr_unp" => "Un :attribute n'est pas un code UNP valide",
+    "blr_person_unp" => "Un :attribute n'est pas un code person UNP valide",
 
     // UKR
-    'ukr_edrpou' => 'The :attribute is not a valid EDRPOU',
+    "ukr_edrpou" => "Un :attribute n'est pas un code EDRPOU valide",
+
+    // FRA
+    "fra_siren" => "Un :attribute n'est pas une SIREN valide",
+    "fra_siret" => "Un :attribute n'est pas un code SIRET valide",
 
     // Other
-    'bank_card_number' => 'The :attribute is not a valid bank card number',
-    'isin' => 'The :attribute is not a valid ISIN',
-    'iban' => 'The :attribute is not a valid IBAN',
+    "bank_card_number" => "Un :attribute n'est pas un code bank card number",
+    "isin" => "Un :attribute n'est pas un code ISIN valide",
+    "iban" => "Un :attribute n'est pas un code IBAN valide",
 ];
