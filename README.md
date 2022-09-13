@@ -20,6 +20,9 @@ The package provides an extended set of rules for validating any national IDs of
 * **UKR** - Ukraine
     * **ukr_edrpou** - (uk: ЄДРПОУ, ru: ЕГРПОУ)
     * **ukr_rnokpp** - (uk: РНОКПП)
+* **FRA** - France
+    * **fra_siren** - (fr: SIREN)
+    * **fra_siret** - (fr: SIRET)
 * Any international codes
     * **bank_card_number** - Any bank card number
     * **isin** - International Securities Identification Number
