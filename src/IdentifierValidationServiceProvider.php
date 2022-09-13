@@ -39,34 +39,16 @@ class IdentifierValidationServiceProvider extends ServiceProvider
         //
     }
 
+    /**
+     * Boot configured rules
+     * 
+     * @return void
+     */
     protected function bootRules()
     {
         $rules = config('laragrad.identifier-validation.rules', []);
 
         foreach ($rules as $ruleName => $ruleClass) {
-
-//             \Validator::extend($ruleName, function (...$params) use ($ruleClass) {
-//                 return $ruleClass::extend(...$params);
-//             });
-
-//             if (method_exists($ruleClass, 'replacer')) {
-
-//                 // Custom rule replacer
-//                 \Validator::replacer($ruleName, function (...$params) use ($ruleClass)  {
-//                     return $ruleClass::replacer(...$params);
-//                 });
-
-//             } else {
-
-//                 // Default rule replacer
-//                 \Validator::replacer($ruleName, function ($message, $attribute, $rule, $parameters, $validator) use ($ruleName) {
-//                     return trans(
-//                         'laragrad/identifier-validation::validation.'.$ruleName,
-//                         ['attribute' => $attribute]
-//                     );
-//                 });
-
-//             }
 
             \App::make($ruleClass)->boot($ruleName);
 
