@@ -25,6 +25,11 @@ return [
     // UKR
     'ukr_edrpou' => 'The :attribute is not a valid EDRPOU',
 
+    
+    // FRA
+    'fra_siren' => 'The :attribute is not a valid SIREN',
+    'fra_siret' => 'The :attribute is not a valid SIRET',
+    
     // Other
     'bank_card_number' => 'The :attribute is not a valid bank card number',
     'isin' => 'The :attribute is not a valid ISIN',
