@@ -11,9 +11,9 @@ abstract class AbstractRuleExtension
     /**
      * Rule extension booting
      *
-     * @param string $rule
+     * @param string|null $rule
      */
-    public function boot(string $rule = null)
+    public function boot(?string $rule = null)
     {
         $rule = $rule ?? \Str::snake(get_class($this));
 
